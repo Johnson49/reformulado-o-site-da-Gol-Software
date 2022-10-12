@@ -1,14 +1,11 @@
-import { useState } from 'react'
+import { BrowserRouter } from "react-router-dom";
+import { AppRoutes } from "./routes/app.routes";
 
-
-function App() {
-  const [count, setCount] = useState(0)
-
+export const App = () => {
   return (
-    <div className="App">
-     <h1>Teste</h1>
-    </div>
-  )
-}
+    <BrowserRouter>
+      <AppRoutes/>
+    </BrowserRouter>
 
-export default App
+  );
+};
