@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 interface IContainerProps{
     background: string
+    height: string
 }
 
 export const ImageContainer = styled.div<IContainerProps>`
@@ -11,7 +12,7 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 width: 100%;
-height: 20vh;
+height: ${(props) => props.height}vh;
 `
 
 export const Sombra = styled.div`

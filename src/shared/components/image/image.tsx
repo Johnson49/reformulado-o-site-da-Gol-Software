@@ -1,10 +1,14 @@
 import { ImageContainer, Sombra } from "./style"
-import background from "../../../assets/img/sessao_2.png"
 
+interface ImageProps{
+    background: string
+    height: string
 
-export const Image = ()=>{
+}
+
+export const Image: React.FC<ImageProps> = ({background, height })=>{
     return(
-        <ImageContainer background={background}>
+        <ImageContainer background={background} height={height}>
             <Sombra/>
         </ImageContainer>
     )
