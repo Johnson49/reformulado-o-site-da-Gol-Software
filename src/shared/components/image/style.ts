@@ -15,8 +15,12 @@ width: 100%;
 height: ${(props) => props.height}vh;
 `
 
-export const Sombra = styled.div`
-background-color: rgba(0,0,0,.3);
+interface ISombraProps{
+    rgba: string
+}
+
+export const Sombra = styled.div<ISombraProps>`
+background-color: rgba(${(props) => props.rgba});
 width: 100%;
 height: 100%;
 `
