@@ -1,10 +1,11 @@
 import { Routes, Route, Navigate } from "react-router-dom";
+import { Index } from "../pages";
 
 
-export const AppRoutes = () => {
+export const AppRoutes:React.FC  = () => {
     return(
         <Routes>
-          <Route path="/" element={<p>hello</p>}/>
+          <Route path="/" element={<Index />}/>
 
           <Route path="*" element={<Navigate to="/" />} />
       </Routes>
