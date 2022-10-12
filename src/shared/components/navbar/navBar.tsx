@@ -3,7 +3,7 @@ import  { Container, LogoMarca, Menu, Opcao } from "./style"
 export const NavBar:React.FC = ()=>{
     return(
         <Container>
-           <LogoMarca>Go Software</LogoMarca>
+           <LogoMarca>Gol Software</LogoMarca>
             <Menu>
                 <Opcao>Home</Opcao>
                 <Opcao>Nossos Produtos</Opcao>
