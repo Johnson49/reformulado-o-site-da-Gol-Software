@@ -1,7 +1,4 @@
-# Reformulando o site da Gol Software
-
-A reformulação não tem fins comercias. Com objetivo único de exercício de habilidades e competências.
-
+# Gol Software
 
 <br>
 
