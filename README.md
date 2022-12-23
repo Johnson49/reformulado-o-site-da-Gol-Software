@@ -12,8 +12,8 @@
 ### Clone o repositório
 
 ```shell
-git clone https://github.com/Johnson49/reformulado-o-site-da-Gol-Software.git
-cd reformulado-o-site-da-Gol-Software
+git clone https://github.com/Johnson49/GolSoftware
+cd GolSoftware
 ```
 
 ### Instale as dependências
